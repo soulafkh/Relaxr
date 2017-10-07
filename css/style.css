@@ -253,7 +253,7 @@ article p {
 	line-height: 1.4;
 }
 
-article span {
+.first-character {
 	float: left;
 	width: 0.7em;
 	font-weight: 600;

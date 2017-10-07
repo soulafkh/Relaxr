@@ -222,11 +222,11 @@ header ul li a:hover:not(.active) {
 
 .articles {
 	width: 72%;
-	margin-right: 3%;
+	margin-right: 2%;
 }
 
 .sidebar {
-	width: 25%;
+	width: 24%;
 }
 
 article {
@@ -250,12 +250,14 @@ article p {
 	color: #606161;
 	font-size: 1.5em;
 	font-weight: 300;
+	line-height: 1.4;
 }
 
 article span {
-	font-size: 4em;
 	float: left;
 	width: 0.7em;
+	font-weight: 600;
+	font-size: 4em;
 	line-height: 1em;
 }
 
@@ -265,27 +267,27 @@ article span {
 	margin-bottom: 10px;
 }
 
-.categories, .about-relaxr {
+.right-box {
 	margin-bottom: 40px;
 }
 
-.categories ul {
+.right-box ul li, p {
+	font-size: 1.4em;
+	line-height: 1.2;
+	font-weight: 300;
+}
+
+.right-box ul {
 	padding: 0;
 }
 
-.categories ul li {
+.right-box ul li {
 	list-style-type: none;
 	padding-bottom: 4px;
 }
 
-.categories ul li a {
+.right-box ul li a {
 	color: #033048;
-}
-
-.categories ul li, p {
-	font-size: 1.4em;
-	line-height: 1.2;
-	font-weight: 300;
 }
 
 .read-more {
